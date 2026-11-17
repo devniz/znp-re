@@ -63,8 +63,7 @@ What Milo does:
 - **Works in the background,** in my language and currency, with the voice playing on the Z01.
 - **Private by design.** No Milo account and no Milo server. My voice is transcribed on my iPhone when the language allows, and requests go straight to Claude. The iPhone's own mic is never used.
 
-Everything Milo does starts from the code and the protocol in this repo. Want to know more about Milo, or build something like it? Email me at [nizar.bousebsi@gmail.com](mailto:nizar.bousebsi@gmail.com).
-
+Everything Milo does starts from the code and the protocol in this repo.
 ## What you get
 
 - **[The full BLE protocol](docs/PROTOCOL.md):** connecting, unlocking, the button, the microphone, the screens, text, files and uploads, byte by byte.
@@ -232,10 +231,6 @@ Issues and pull requests are welcome, especially:
 - the unknowns listed in the protocol doc,
 - testing and fixes for the Android sample,
 - ports to other platforms.
-
-## Contact
-
-Questions, ideas, or want to know more about Milo? Reach me directly at [nizar.bousebsi@gmail.com](mailto:nizar.bousebsi@gmail.com).
 
 ## Disclaimer
 
