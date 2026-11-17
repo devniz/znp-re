@@ -39,19 +39,29 @@ The Z01 ships tied to an app called **BagiBagi**, and it wastes the hardware com
 
 The hardware is nice: a mic, a screen and a speaker you clip on. The app is what makes it feel like a toy. Replace the app and it becomes a real assistant. Our version works better on every point above.
 
-## Meet Milo: the badge I wear every day
+## Meet Milo
 
-**Milo** is my own assistant, built on exactly the protocol in this repo. It replaces BagiBagi on my Z01, and it's the proof of what the badge can do with a real app behind it.
+**Milo** is my own assistant, built on exactly the protocol in this repo. It replaces BagiBagi on my Z01, and it shows what the badge can do with a real app behind it.
+
+I use it for small tasks that would otherwise mean unlocking my phone. I double-tap the badge and ask: "what's in my calendar tomorrow?", "add lunch with Sam on Friday at one", "play something calm". The answer appears on the badge and is read out through its speaker.
+
+### The ZNP Z01 in my hand, running Milo
 
 <p align="center">
-  <img src="docs/milo-badge.jpg" alt="The Z01 in my hand, showing Milo's custom listening screen" width="300" />
-  &nbsp;
-  <img src="docs/milo-home.jpg" alt="The Milo iPhone app: the badge is connected, with the latest request below" width="200" />
-  &nbsp;
-  <img src="docs/milo-settings.jpg" alt="Milo's settings: Claude answers, actions, conversation mode, language, background mode, and spoken answers on the Z01" width="200" />
+  <img src="docs/milo-badge.jpg" alt="The ZNP Z01 held in a hand, showing Milo's custom listening screen" width="360" />
 </p>
 
-I clip it on in the morning and use it all day for the small tasks that would otherwise mean unlocking my phone. I double-tap the badge and just ask: "what's in my calendar tomorrow?", "add lunch with Sam on Friday at one", "email the team that I'm running late", "play something calm", "take me to the station". The answer appears on the badge and is read out through its speaker, and the action is done.
+### The Milo app: home screen
+
+<p align="center">
+  <img src="docs/milo-home.jpg" alt="The Milo iPhone app home screen: the badge is connected, with the latest request below" width="260" />
+</p>
+
+### The Milo app: settings
+
+<p align="center">
+  <img src="docs/milo-settings.jpg" alt="Milo's settings: Claude answers, actions, conversation mode, language, background mode, and spoken answers on the Z01" width="260" />
+</p>
 
 What Milo does:
 
@@ -80,7 +90,7 @@ Everything Milo does starts from the code and the protocol in this repo. Want to
 
 The Z01 is a small, wearable mic and speaker. Pair it with your own app and you can make it do **literally anything**: a pocket assistant, a translator, a note taker, a kid-friendly talking toy, a hands-free remote for your whole digital life. If your phone can do it and an AI can decide when, the badge can trigger it.
 
-Meta is about to launch its **Charm keychain**, an AI you wear. You don't have to wait for it, or accept the features Meta decides to give you. With a Z01 and this repo you can build the same idea today, and make it better: your model, your features, your data, your rules. The same goes for any other AI badge or talking toy on the market.
+Meta's **Charm keychain**, an AI you wear, is scheduled to start shipping in December 2026. You don't have to wait for it, or accept the features Meta decides to give you. With a Z01 and this repo you can build the same idea today, and make it better: your model, your features, your data, your rules. The same goes for any other AI badge or talking toy on the market.
 
 | | Stock app (BagiBagi) | Your app |
 |---|---|---|
