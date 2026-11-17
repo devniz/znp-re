@@ -27,7 +27,7 @@ So whoever controls the app controls the badge. This repo gives you that control
 
 The Z01 sells on AliExpress: [ZNP Z01 AI badge](https://www.aliexpress.com/item/1005013174192186.html). It's cheap hardware, and that's the point: all the value comes from the app you put behind it.
 
-## The stock app is garbage
+## The stock app is not great
 
 The Z01 ships tied to an app called **BagiBagi**, and it wastes the hardware completely:
 
