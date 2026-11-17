@@ -76,9 +76,9 @@ Everything Milo does starts from the code and the protocol in this repo. Want to
 
 ## Why build your own
 
-The Z01 is a small, wearable mic and speaker. Pair it with your own app and you can make it do **literally anything**: a pocket assistant, a translator, a note taker, a kid-friendly talking toy, a hands-free remote for your whole digital life. If your phone can do it and an AI can decide when, the badge can trigger it.
+The Z01 is a small, wearable mic and speaker. Pair it with your own app and you can make it do **literally anything**: a pocket assistant, a translator, a note taker, a hands-free remote for your whole digital life. If your phone can do it and an AI can decide when, the badge can trigger it.
 
-Meta's **Charm keychain**, an AI you wear, is scheduled to start shipping in December 2026. You don't have to wait for it, or accept the features Meta decides to give you. With a Z01 and this repo you can build the same idea today, and make it better: your model, your features, your data, your rules. The same goes for any other AI badge or talking toy on the market.
+Meta's **Charm keychain**, an AI you wear, is scheduled to start shipping in December 2026. You don't have to wait for it, or accept the features Meta decides to give you. With a Z01 and this repo you can build the same idea today, and make it better: your model, your features, your data, your rules. The same goes for any other AI badge.
 
 | | Stock app (BagiBagi) | Your app |
 |---|---|---|
