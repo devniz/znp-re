@@ -108,7 +108,7 @@ The badge connects, unlocks and shows your text. Add `--listen`, press the badge
 
 ## Build your own app
 
-**iOS.** Follow [examples/ios](examples/ios). Create an app in Xcode, add the `Z01Kit` package, drop in five files, paste your Anthropic API key and run. The core loop looks like this.
+**iOS.** Follow [examples/ios](examples/ios). Create an app in Xcode, add the `Z01Kit` package, copy in the five Swift files from [examples/ios/QuickStart](examples/ios/QuickStart), paste your Anthropic API key and run. The core loop looks like this.
 
 ```swift
 import Z01Kit
