@@ -39,6 +39,34 @@ The Z01 ships tied to an app called **BagiBagi**, and it wastes the hardware com
 
 The hardware is nice: a mic, a screen and a speaker you clip on. The app is what makes it feel like a toy. Replace the app and it becomes a real assistant. Our version works better on every point above.
 
+## Meet Milo: the badge I wear every day
+
+**Milo** is my own assistant, built on exactly the protocol in this repo. It replaces BagiBagi on my Z01, and it's the proof of what the badge can do with a real app behind it.
+
+<p align="center">
+  <img src="docs/milo-badge.jpg" alt="The Z01 in my hand, showing Milo's custom listening screen" width="300" />
+  &nbsp;
+  <img src="docs/milo-home.jpg" alt="The Milo iPhone app: the badge is connected, with the latest request below" width="200" />
+  &nbsp;
+  <img src="docs/milo-settings.jpg" alt="Milo's settings: Claude answers, actions, conversation mode, language, background mode, and spoken answers on the Z01" width="200" />
+</p>
+
+I clip it on in the morning and use it all day for the small tasks that would otherwise mean unlocking my phone. I double-tap the badge and just ask: "what's in my calendar tomorrow?", "add lunch with Sam on Friday at one", "email the team that I'm running late", "play something calm", "take me to the station". The answer appears on the badge and is read out through its speaker, and the action is done.
+
+What Milo does:
+
+- **Answers with Claude.** Double-tap, speak, and the reply streams onto the badge screen word by word while the badge speaker reads it out.
+- **Real actions, not just chat.** Email, calendar (read and add events), phone calls, music, and typing for me through its own iPhone keyboard. Each action gets a short spoken confirmation.
+- **Conversation mode.** After each answer the badge listens again, so I can keep talking. A double-tap interrupts, silence ends it.
+- **Fast local commands.** A small model trained on-device decides whether a request is a quick action it can run straight away, or one that needs Claude.
+- **Turn-by-turn directions on the badge.** Apple Maps plans the route and the badge shows `<< LEFT 200 m` before each turn.
+- **Lock-screen hand-off.** When an action needs another app (a call, Google Maps, Waze, Spotify), Milo puts a card on the lock screen to tap.
+- **Its own character.** A custom listening screen and animated faces, uploaded with the file formats documented here.
+- **Works in the background,** in my language and currency, with the voice playing on the Z01.
+- **Private by design.** No Milo account and no Milo server. My voice is transcribed on my iPhone when the language allows, and requests go straight to Claude. The iPhone's own mic is never used.
+
+Everything Milo does starts from the code and the protocol in this repo. Want to know more about Milo, or build something like it? Email me at [nizar.bousebsi@gmail.com](mailto:nizar.bousebsi@gmail.com).
+
 ## What you get
 
 - **[The full BLE protocol](docs/PROTOCOL.md):** connecting, unlocking, the button, the microphone, the screens, text, files and uploads, byte by byte.
@@ -206,6 +234,10 @@ Issues and pull requests are welcome, especially:
 - the unknowns listed in the protocol doc,
 - testing and fixes for the Android sample,
 - ports to other platforms.
+
+## Contact
+
+Questions, ideas, or want to know more about Milo? Reach me directly at [nizar.bousebsi@gmail.com](mailto:nizar.bousebsi@gmail.com).
 
 ## Disclaimer
 
