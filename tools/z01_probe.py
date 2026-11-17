@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """Talk to a ZNP Z01 badge from your computer: the fastest way to check the protocol.
 
-    pip install bleak
-    python3 tools/z01_probe.py                     # connect, unlock, print the battery
-    python3 tools/z01_probe.py --text "Hello!"     # show text on the badge
-    python3 tools/z01_probe.py --screen thinking   # switch screens
-    python3 tools/z01_probe.py --listen            # press the badge button and talk
+    python3 -m venv .venv
+    .venv/bin/python -m pip install --upgrade pip  # first, on its own: an old pip fails on macOS
+    .venv/bin/pip install bleak
+
+    .venv/bin/python tools/z01_probe.py                     # connect, unlock, print the battery
+    .venv/bin/python tools/z01_probe.py --text "Hello!"     # show text on the badge
+    .venv/bin/python tools/z01_probe.py --screen thinking   # switch screens
+    .venv/bin/python tools/z01_probe.py --listen            # press the badge button and talk
 
 --listen saves each utterance's raw Opus packets to z01-<time>.opus-packets
 (each packet prefixed with its length as 2 bytes, big-endian). With `pip install

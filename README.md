@@ -54,15 +54,27 @@ A few more things that make it pleasant to build on:
 
 ## Try it in two minutes (from your laptop)
 
-Turn the badge on and close the stock app on your phone (only one app can hold the badge). Then:
+Turn the badge on and close the stock app on your phone (only one app can hold the badge). Then, from the repo folder, set up a virtual environment:
 
 ```bash
-pip install bleak
+python3 -m venv .venv
+```
+
+Upgrade its pip first, on its own:
+
+```bash
+.venv/bin/python -m pip install --upgrade pip
 ```
 
 ```bash
-python3 tools/z01_probe.py --text "Hello from my laptop"
+.venv/bin/pip install bleak
 ```
+
+```bash
+.venv/bin/python tools/z01_probe.py --text "Hello from my laptop"
+```
+
+> **On a Mac,** don't skip the pip upgrade. The `python3` that ships with macOS and Xcode has an old pip. It tries to compile `pyobjc-core` from source and fails with *Cannot locate a working compiler*. An up-to-date pip installs ready-made packages instead. The first run asks for Bluetooth permission for your terminal: allow it.
 
 The badge connects, unlocks and shows your text. Add `--listen`, press the badge button and talk: the probe saves what the badge heard.
 
