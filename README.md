@@ -37,7 +37,7 @@ The Z01 ships tied to an app called **BagiBagi**, and it wastes the hardware com
 - **Your voice goes through their servers**, and you get no say in it.
 - **It's closed.** You get what they give you, and nothing more.
 
-The hardware is nice: a mic, a screen and a speaker you clip on. The app is what makes it feel like a toy. Replace the app and it becomes a real assistant. Our version works better on every point above.
+The hardware is nice: a mic, a screen and a speaker you clip on. Replace the app and it becomes a real assistant. Our version works better on every point above.
 
 ## Meet Milo
 
