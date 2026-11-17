@@ -1,0 +1,24 @@
+.DS_Store
+
+# Swift / Xcode
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Android / Gradle
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Probe recordings
+z01-*.opus-packets
+z01-*.wav
