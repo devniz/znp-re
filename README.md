@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/z01.webp" alt="The ZNP Z01 badge showing a purple face on its round screen" width="320" />
+</p>
+
 # ZNP-RE
 
 **The ZNP Z01 AI badge, reverse engineered.** The complete Bluetooth protocol, plus working iOS and Android code, so you can build your own AI badge assistant with your own app, your own features and the AI model you choose.
