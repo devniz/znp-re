@@ -6,7 +6,7 @@
 
 **The ZNP Z01 AI badge, reverse engineered.** The complete Bluetooth protocol, plus working iOS and Android code, so you can build your own AI badge assistant with your own app, your own features and the AI model you choose.
 
-We use it with [Claude](https://www.anthropic.com/claude). You can plug in anything.
+We use it with [Claude](https://www.anthropic.com/claude). You can plug in anything, and build literally any feature you can think of.
 
 ```
 press the badge ─▶ speak ─▶ your phone app ─▶ Claude ─▶ the answer on the badge screen
@@ -23,6 +23,22 @@ There's no AI inside. The badge only records your voice, sends it to a phone app
 
 So whoever controls the app controls the badge. This repo gives you that control.
 
+### Get one
+
+The Z01 sells on AliExpress: [ZNP Z01 AI badge](https://www.aliexpress.com/item/1005013174192186.html). It's cheap hardware, and that's the point: all the value comes from the app you put behind it.
+
+## The stock app is garbage
+
+The Z01 ships tied to an app called **BagiBagi**, and it wastes the hardware completely:
+
+- **"Add a GIF" doesn't animate.** The app offers to put a GIF on the badge, then uploads it as a single frozen frame. We decoded the badge's own animation format ([FILE-FORMATS.md](docs/FILE-FORMATS.md)), so you can push real moving faces to the screen.
+- **The AI is whatever they picked.** You can't choose the model, the voice or the personality.
+- **It can only chat.** No email, no calendar, no music, no smart home, no directions.
+- **Your voice goes through their servers**, and you get no say in it.
+- **It's closed.** You get what they give you, and nothing more.
+
+The hardware is nice: a mic, a screen and a speaker you clip on. The app is what makes it feel like a toy. Replace the app and it becomes a real assistant. Our version works better on every point above.
+
 ## What you get
 
 - **[The full BLE protocol](docs/PROTOCOL.md):** connecting, unlocking, the button, the microphone, the screens, text, files and uploads, byte by byte.
@@ -34,12 +50,15 @@ So whoever controls the app controls the badge. This repo gives you that control
 
 ## Why build your own
 
-The Z01 is a small, wearable mic and speaker. Pair it with your own app and it becomes whatever you want: a pocket assistant, a translator, a note taker, a kid-friendly talking toy. It's a great alternative to the upcoming Meta Charm keychain or any other intelligent AI badge toy, and you own the whole stack.
+The Z01 is a small, wearable mic and speaker. Pair it with your own app and you can make it do **literally anything**: a pocket assistant, a translator, a note taker, a kid-friendly talking toy, a hands-free remote for your whole digital life. If your phone can do it and an AI can decide when, the badge can trigger it.
 
-| | Stock app | Your app |
+Meta is about to launch its **Charm keychain**, an AI you wear. You don't have to wait for it, or accept the features Meta decides to give you. With a Z01 and this repo you can build the same idea today, and make it better: your model, your features, your data, your rules. The same goes for any other AI badge or talking toy on the market.
+
+| | Stock app (BagiBagi) | Your app |
 |---|---|---|
 | **AI model** | whatever the vendor picked | any: Claude Opus, Sonnet or Haiku, or another provider, or a local model |
 | **Features** | chat | anything you can write as a tool: email, calendar, music, smart home, directions, your own APIs |
+| **Animations** | GIFs upload as a frozen frame | real animated faces, your own designs |
 | **Privacy** | your voice goes through the vendor's servers | badge → your phone → the AI provider you chose. No extra account, no middleman |
 | **Cost** | tied to the vendor's service | the badge, plus what you use of your AI provider |
 | **Personality** | fixed | your prompt, your voice, your faces on the screen |
@@ -190,7 +209,7 @@ Issues and pull requests are welcome, especially:
 
 ## Disclaimer
 
-This is an independent project for interoperability, made by owners of the device. It isn't affiliated with or endorsed by ZNP, JieLi, Anthropic or Meta. No firmware was modified, and no keys or encryption were extracted or broken. Product names belong to their owners. Use it at your own risk.
+This is an independent project for interoperability, made by owners of the device. It isn't affiliated with or endorsed by ZNP, JieLi, Anthropic or Meta. No firmware was modified, and no keys or encryption were extracted or broken. What we say about the stock app is our own opinion, from using it. Product names belong to their owners. Use it at your own risk.
 
 ## License
 
