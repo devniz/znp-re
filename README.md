@@ -45,18 +45,6 @@ The hardware is nice: a mic, a screen and a speaker you clip on. The app is what
 
 I use it for small tasks that would otherwise mean unlocking my phone. I double-tap the badge and ask: "what's in my calendar tomorrow?", "add lunch with Sam on Friday at one", "play something calm". The answer appears on the badge and is read out through its speaker.
 
-### The ZNP Z01 in my hand, running Milo
-
-<p align="center">
-  <img src="docs/milo-badge.jpg" alt="The ZNP Z01 held in a hand, showing Milo's custom listening screen" width="360" />
-</p>
-
-### The Milo app: home screen
-
-<p align="center">
-  <img src="docs/milo-home.jpg" alt="The Milo iPhone app home screen: the badge is connected, with the latest request below" width="260" />
-</p>
-
 ### The Milo app: settings
 
 <p align="center">
