@@ -1,6 +1,6 @@
 # ZNP Z01 BLE protocol
 
-Everything the Z01 does over Bluetooth Low Energy, byte by byte. It was worked out from iOS PacketLogger captures of the stock app and then confirmed by driving real badges from our own code (the VRTX, Milo and KOVA apps).
+Everything the Z01 does over Bluetooth Low Energy, byte by byte. It was worked out from iOS PacketLogger captures of the stock app and then confirmed by driving real badges from our own code.
 
 Every value is hex. **BE** means big-endian and **LE** means little-endian.
 
